@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>checkout</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="main">
+    <section class="hero-section">
+      <h1 class="display-1 ">Checkout</h1>
+      <div class="breadcrumbs">
+        <span class="item">
+          <a href="#">Home</a>
+        </span>
+        <span class="item">>Checkout</span>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <form class="form-group">
+          <div>
+            <div class="col-lg-6">
+              <h2 class="display-7">Billing Details</h2>
+              <div class="billing-details">
+                <h4><label for="fname">First Name*</label></h4>
+                <input type="text" id="fname" name="firstname" class="form">
+                <h4><label for="lname">Last Name*</label></h4>
+                <input type="text" id="lname" name="lastname" class="form">
+                <h4><label for="cname">Company Name(optional)*</label></h4>
+                <input type="text" id="cname" name="companyname" class="form">
+                <h4><label for="cname">Country / Region*</label>
+                  <h4>
+                    <select class="form" aria-label="Default select example">
+                      <option selected="" hidden="">United States</option>
+                      <option value="1">UK</option>
+                      <option value="2">Australia</option>
+                      <option value="3">Canada</option>
+                    </select>
+                    <h4><label for="address">Street Address*</label></h4>
+                    <input type="text" id="adr" name="address" placeholder="House number and street name"
+                      class="form">
+                    <input type="text" id="adr" name="address" placeholder="Appartments, suite, etc."
+                      class="form">
+                    <h4><label for="city">Town / City *</label></h4>
+                    <input type="text" id="city" name="city" class="form">
+                    <h4><label for="state">State *</label></h4>
+                    <select class="form" aria-label="Default select example">
+                      <option selected="" hidden="">Florida</option>
+                      <option value="1">New York</option>
+                      <option value="2">Chicago</option>
+                      <option value="3">Texas</option>
+                      <option value="3">San Jose</option>
+                      <option value="3">Houston</option>
+                    </select>
+                    <h4><label for="zip">Zip Code *</label></h4>
+                    <input type="text" id="zip" name="zip" class="form">
+                    <h4><label for="email">Phone *</label></h4>
+                    <input type="text" id="phone" name="phone" class="form">
+                    <h4><label for="email">Email address *</label></h4>
+                    <input type="text" id="email" name="email" class="form">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h2 class="display-7">Additional Information</h2>
+              <div class="billing-details">
+                <h4><label for="fname">Order notes (optional)</label></h4>
+                <textarea class="form"
+                  placeholder="Notes about your order. Like special notes for delivery."></textarea>
+              </div>
+              <div class="your-order mt-5">
+                <h2 class="display-7">Cart Totals</h2>
+                <div class="total-price">
+                  <table cellspacing="0" class="table">
+                    <tbody>
+                      <tr class="subtotal border">
+                        <th>Subtotal</th>
+                        <td data-title="Subtotal">
+                          <span class="price">
+                            <bdi>
+                              <span class="price">$</span>2,370.00 </bdi>
+                          </span>
+                        </td>
+                      </tr>
+                      <tr class="order-total">
+                        <th>Total</th>
+                        <td data-title="Total">
+                          <span class="price-amount">
+                            <bdi>
+                              <span class="price-currency">$</span>2,370.00
+                            </bdi>
+                          </span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="list-group">
+                    <label class="list-group-item">
+                      <input class="form-check-input" type="radio"
+                        name="listGroupRadios" id="listGroupRadios1" value=""
+                        checked="">
+                      <span>
+                        <strong>Direct bank transfer</strong>
+                        <small class="d-block">Make your payment directly
+                          into our bank account.Please use your Order ID.Your
+                          order will shipped after funds have cleared in our
+                          account.</small>
+                      </span>
+                    </label>
+                    <h4><label class="list-group-item"></h4>
+                      <input class="custom-radio-input" type="radio" name="listGroupRadios"
+                        id="listGroupRadios2" value="">
+                      <span>
+                        <strong class="text-uppercase">Check payments</strong>
+                        <small class="d-block">Please send a check to Store Name, Store Street,
+                          Store
+                          Town, Store State / County, Store Postcode.</small>
+                      </span>
+                    </label>
+                    <h4><label class="list-group-item"></h4>
+                      <input class="custom-radio-input" type="radio" name="listGroupRadios"
+                        id="listGroupRadios3" value="">
+                      <span>
+                        <strong class="text-uppercase">Cash on
+                          delivery</strong>
+                        <small class="d-block">Pay with
+                          cash upon delivery.</small>
+                      </span>
+                    </label>
+                    <h4><label class="list-group-item"></h4>
+                      <input class="form-check-input" type="radio" 
+                        name="listGroupRadios"
+                        id="listGroupRadios3" value="">
+                      <span>
+                        <strong class="text-uppercase">Paypal</strong>
+                        <small class="d-block">Pay via
+                          PayPal; you can pay with your credit card if you
+                          don’t have a PayPal account.</small>
+                      </span>
+                    </label>
+                  </div>
+                  <div class="buton">
+                  <button type="submit" name="submit"
+                    class="btn-dark">Place an order</button>
+                </div>
+              </div>
+            </div>
+          </div>
+</body>
+
+</html>

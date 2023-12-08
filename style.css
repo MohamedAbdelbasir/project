@@ -1,0 +1,109 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Work Sans", sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .container{
+    padding-left: 15px; ;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: auto;
+  }
+  
+  .main {
+    padding: 10px;
+    margin: 5px;
+    width: 99%;
+  }
+  
+  .hero-section {
+    color: #212529;
+    position: relative;
+    padding: 4em 0em;
+    background: #EDF1F3;
+  
+  }
+  
+  .display-1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 0px;
+    margin-bottom: 0.2rem;
+    text-align: center;
+  }
+  
+  .breadcrumbs,
+  .item {
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 0px;
+    margin-bottom: 0.2rem;
+    text-align: center;
+  }
+  
+  .item a:hover {
+    color: #007aff;
+  }
+  
+  .display-7 {
+    margin: 50px 0px 8px;
+    padding: 0px 50px 4px 0px;
+  
+  }
+  
+  .form-group {
+    margin: 5%;
+  }
+  
+  .billing-details {
+    padding: px;
+  
+  }
+  
+  .form-control {
+    width: 80%;
+  }
+  
+  h4 {
+    padding: 7px;
+    font-size: .8em;
+  }
+  
+  .btn-dark {
+    background-color: #212529;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .buton,
+  .price-currency {
+    padding-top: 50px;
+  }
+  
+  .form {
+    width: 90%;
+  }
+  
+  .custom-radio-input {
+    margin-right: 5px;
+  }
+  
+  .custom-radio-label {
+    font-weight: bold;
+  }
